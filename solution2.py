@@ -25,6 +25,7 @@ def find_general_elem(array: list[int]) -> int:
     for number in array:
         if count == 0:
             candidate = number
+            count = 1
         else:
             if number == candidate:
                 count += 1
