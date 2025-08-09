@@ -1,4 +1,4 @@
-from solution import find_general_elem
+from solution2 import find_general_elem
 
 
 def test():
@@ -40,6 +40,11 @@ def test():
     # Граничный случай: majority ровно n/2 + 1
     array = [1, 1, 1, 2, 2]
     right_answer = 1
+    run_one_test(array, right_answer)
+    
+    # Тест, где majority элемент не сразу становится кандидатом
+    array = [2, 2, 3, 3, 3, 2, 2]
+    right_answer = 2
     run_one_test(array, right_answer)
 
 
