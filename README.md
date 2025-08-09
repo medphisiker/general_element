@@ -4,6 +4,10 @@
 
 Эта задача с `All cups` ([ссылка](https://cups.online/ru/workareas/education_2277/1240/2397/)).
 
+На `LeetCode` есть более простой вариант этой задачи ([ссылка](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)).
+
+Решение задачи с LeetCode представлено тут ([ссылка](https://github.com/medphisiker/majority_element)).
+
 Дан массив целых чисел. Ваша задача — определить, существует ли элемент, который встречается больше половины раз в массиве. Если такой элемент существует, вернуть его. Если такого элемента нет, вернуть `-1`.
 
 ## Формат входных данных
